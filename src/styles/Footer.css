@@ -1,0 +1,34 @@
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 5rem 0;
+    color: var(--pure);
+}
+
+footer .footer-socials{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+
+}
+
+footer .footer-socials .image{
+   margin-right: 1rem;
+}
+
+footer .footer-socials .image svg{
+    height: 1.4rem;
+    width: 100%;
+}
+
+
+footer .footer-logo{
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+footer .copyright{
+    color:var(--ternary);
+}

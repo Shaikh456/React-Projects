@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+*{
+    /* outline: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+    /* width: 100%; */
+}
+
+/* Whole Page Body Font */
+
+body{
+    font-family:'Poppins',sans-serif ;
+    overflow-x: hidden;
+}
+
