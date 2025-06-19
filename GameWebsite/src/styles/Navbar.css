@@ -1,0 +1,104 @@
+/* =============================== */
+/* NAVBAR CSS FOR GAMEHUB WEBSITE */
+/* =============================== */
+
+/* Overall Navbar Layout */
+.navbar {
+  position: fixed;               /* Keeps navbar at the top even on scroll */
+  top: 0;
+  left: 0;
+  width: 96%;                    /* Slight padding on sides */
+  z-index: 1000;                 /* Keeps it on top of all other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 1.2rem;
+  color: #4f46e5;                /* Violet-blue shade */
+  font-weight: bold;
+}
+
+/* Nav Links Container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;                   /* Spacing between links */
+}
+
+/* Nav Link Items */
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  color: whitesmoke;             /* Light text on dark bg */
+}
+
+/* Anchor tag inside nav items */
+.nav-links li a {
+  position: relative;
+  text-decoration: none;
+  color: whitesmoke;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+/* Underline animation for hover effect */
+.nav-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4f46e5;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.nav-links li a:hover {
+  color: #4f46e5;
+}
+
+/* Active Nav Link Styling */
+.nav-links li a.active {
+  color: #4f46e5;
+}
+
+.nav-links li a.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Container for NavLinks + Login Button */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;                     /* Space between links and login button */
+}
+
+/* Login Button Style */
+.login-btn {
+  background-color: #4f46e5;     /* Violet fill */
+  border: 3px solid #4f46e5;     /* Matching border */
+  color: whitesmoke;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect for Login Button */
+.login-btn:hover {
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  color: white;
+}
