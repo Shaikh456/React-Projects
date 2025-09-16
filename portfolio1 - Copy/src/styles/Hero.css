@@ -1,0 +1,44 @@
+@import "./utilities.css";
+
+.hero{
+    padding: 3rem 0;
+}
+
+.hero .left{
+     margin-top: -5rem;
+}
+
+.hero .left img{
+    width: 300px;
+    mix-blend-mode: lighten;
+}
+
+.hero .right{
+    color: var(--pure);
+}
+
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100%;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color: var(--primary);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right{
+    margin-top: -7rem;
+}
