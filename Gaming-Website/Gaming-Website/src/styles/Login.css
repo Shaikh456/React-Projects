@@ -1,0 +1,74 @@
+/* Login.css */
+
+/* Main container for the login page */
+.login-container {
+  height: 90vh; /* Takes up most of the viewport height */
+  background-color: #0f0f0f; /* Very dark background for contrast */
+  display: flex; /* Center content using flex */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 2rem;
+  color: whitesmoke; /* Light text for contrast */
+}
+
+/* Heading styles */
+.login-container h1 {
+  color: #8b5cf6; /* Violet accent color */
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Input field styles */
+.login-container input {
+  width: 300px;
+  padding: 12px 16px;
+  margin-bottom: 1rem;
+  border: 1px solid #333; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #1a1a1a; /* Dark input background */
+  color: whitesmoke;
+  font-size: 1rem;
+  transition: border-color 0.3s; /* Smooth border transition */
+}
+
+/* Highlight input on focus */
+.login-container input:focus {
+  border-color: #8b5cf6; /* Violet focus border */
+  outline: none;
+}
+
+/* Button styles */
+.login-container button {
+  width: 300px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8b5cf6; /* Violet button */
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+  background-color: #7c3aed; /* Darker violet on hover */
+}
+
+/* Glassmorphism card for the login form */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05); /* Slight white tint */
+  backdrop-filter: blur(12px); /* Blur behind the card */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-radius: 16px;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4); /* Deep shadow */
+  border: 1px solid rgba(255, 255, 255, 0.12); /* Subtle border */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
