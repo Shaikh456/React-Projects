@@ -1,0 +1,11 @@
+# .gitignore (root)
+node_modules/
+.env
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+# ignore build outputs if any
+frontend/build/
+frontend/dist/
+backend/build/
